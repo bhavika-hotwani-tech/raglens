@@ -1,0 +1,57 @@
+# Dependencies & Build artifacts
+node_modules/
+*/node_modules/
+frontend/node_modules/
+dist/
+*/dist/
+frontend/dist/
+dist-ssr/
+.vite/
+*/.vite/
+*.local
+
+# Python Virtual Environment & Cache
+venv/
+backend/venv/
+*/venv/
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment files with sensitive credentials & keys
+.env
+.env.*
+*/.env
+*/.env.*
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+!.env.example
+!*/.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Local uploads & storage
+backend/uploads/
+uploads/
+sample_docs/uploads/
+*.log
+
+# Editor & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Scratch documents
+*.docx
